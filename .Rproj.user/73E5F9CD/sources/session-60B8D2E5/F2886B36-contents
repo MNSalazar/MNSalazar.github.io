@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Nancy Salazar"
+  
+  navbar:
+    background: secondary
+    search: true
+    left:
+    #Differnt website pages
+      - href: index.qmd
+        text: Home
+      
+      - href: about.qmd
+        text: My corn
+     
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
